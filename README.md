@@ -16,7 +16,7 @@ Application that allows you to search for songs through the Spotify public Web A
 
 - I built a backend application that would act as a proxy between the Spotify Web API and a FrontEnd application, which allows you to search from the FrontEnd application.
 
-For the backend I built an endpoint called /search?q="word to search" that allows searching for songs by capturing the word that the user writes and sends.
+- For the backend I built an endpoint called /search?q="word to search" that allows searching for songs by capturing the word that the user writes and sends.
 
 
 ## FrontEnd:
@@ -26,29 +26,26 @@ For the backend I built an endpoint called /search?q="word to search" that allow
 - Finally create a detail modal: Which shows the additional information about a song. The user accesses it through the details button.
 
 
-## Pre requirements
+## Requirements
 - You must have the latest version of Node.js installed
 - You must request the credentials to use the spotify api:
 https://developer.spotify.com/dashboard/
 
-- Once you have the Client-ID and the Client-secret, go to the * .env.example * file and generate a copy of it and rename the file to *.env*.
+- Once you have the Client-ID and the Client-secret, go to api folder where you will find the *.env.example* file then generate a copy of it and rename the file to *.env*.
 
 - It is worth clarifying that inside this *.env* file you must paste your client-id and client-secret that you just generated.
 
 ## To run this application:
 
 1. Go to the following link : https://github.com/Madez17/madez_music and:
-    - clone the project is your local.
-        - fdfd
+    ```
+    clone the project.
+    ```
 
-1. Move to the madez_music folder and run the following command:
-    ```- npm install```
+2. Move to each folder [client](https://github.com/Madez17/madez_music/tree/main/client) and [api](https://github.com/Madez17/madez_music/tree/main/client) to follow the configuration instructions of each environment (Backend - Frondent).
 
 
 ---
-
-
-URL: app deploy en heroku
 
 
 ## Author
