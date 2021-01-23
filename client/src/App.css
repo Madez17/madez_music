@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.app_header {
+  background-image: url('./images/music.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+
+.app_header::after {
+  content: '';
+  height: 4rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black url('./images/spotify-logo.png') no-repeat center;
+  background-size: 150px;
+  padding: 4px;
+}
+
+.app_filter{
+  background: linear-gradient(90deg, rgba(255,255,255,0.25672275746235995) 0%, rgba(0,0,0,0.7329132336528361) 56%, rgba(0,0,0,0.9710084717480743) 84%);
+  height: 600px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 120px;
+}
+
+.app_filter h1 {
+  color: #fff;
+  font-size: 5.5rem;
+  font-weight: lighter;
+  text-align: right;
+}
+
+.app_search {
+  width: 80%;
+  margin: 40px auto 60px auto;
+  padding: 30px;
+  font-size: 2.5rem;
+  color: black;
+}
+
+.app_search .app-search__title {
+  margin: 0;
+}
+
+.app_search p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 60px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #1db954;
+  padding: 0 21px;
+  line-height: 45px;
+  width: 300px;
+  font-size: 1.4rem;
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 1.4rem;
+}
+
+button {
+  background: #1db954;
+  padding: 9px 41px;
+  color: #fff;
+  border: none;
+  border-radius: 34px;
+  font-size: 1.2rem;
+  margin-left: 25px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+button:hover {
+  background-color: #00a442;
+}
+
+
+@media only screen and (max-width: 600px) {
+  input {
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 20px;
+  }
+
+  .app_filter {
+    background-color: linear-gradient(90deg, rgba(203, 203, 203, 0.59) 0%, rgba(0, 0, 0, 0.64) 59%, rgb(0, 0, 0) 84%)
+  }
+
+  .app_filter h1 {
+    font-size: 3.4rem;
+  }
+}
