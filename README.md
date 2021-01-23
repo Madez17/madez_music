@@ -38,7 +38,7 @@ https://developer.spotify.com/dashboard/
 ## To run this application:
 
 1. Go to the following link : https://github.com/Madez17/madez_music and:
-    ```clone the project is your local. ```
+    - ```clone the project is your local. ```
 
 1. Move to the madez_music folder and run the following command:
     ```- npm install```
