@@ -34,7 +34,7 @@ function ResultsList(props: Props) {
                 return (
                     <div className='results_details' key={index}>
                         {song.album.images[1] ? 
-                            <img src={song.album.images[1].url} alt='Album Image' /> : 
+                            <img src={song.album.images[1].url} alt='Album' /> : 
                             <div className='default-image-album'></div>
                         }
                         <h3 className='results-details_title'>{song.name}</h3>
